@@ -17,9 +17,9 @@ export const contactsSlice = createSlice ({
       
       addContact(state, action) {
       state.contacts.push(action.payload);
-      
       },
-       deleteContacts(state, action) {
+    
+      deleteContacts(state, action) {
       state.contacts.splice(action.payload, 1);
       },
     //  deleteContacts(state, action) {
